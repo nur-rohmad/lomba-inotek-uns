@@ -42,7 +42,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <form method="GET" action="pesan.php">
+            <form method="POST" action="pesan.php">
 
               <ul class="list-group list-group-flush">
                 <li class="list-group-item"> <label for="nama">Nama :</label> <input type="text" name="nama"> </li>

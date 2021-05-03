@@ -1,8 +1,8 @@
 <?php
 require_once('assets/function/menu.php');
-if (isset($_GET['nama'])) {
-  $namaku = $_GET['nama'];
-  $alamat = $_GET['alamat'];
+if (isset($_POST['nama'])) {
+  $namaku = $_POST['nama'];
+  $alamat = $_POST['alamat'];
 }
 ?>
 
@@ -27,12 +27,12 @@ if (isset($_GET['nama'])) {
 
       <p class="order-amount">
         <?php
-        $jmlPesanan = $_GET[$menu->name];
+        $jmlPesanan = $_POST[$menu->name];
         $menu->setJmlPessanan($jmlPesanan);
         $totalBayar += $menu->getTotalBayar(); ?>
 
         <!-- Cetak property name milik $menu menggunakan method getName -->
-        <?php echo $a = $menu->name; ?>
+        <?php echo "Nasi Pecel +" . $menu->name; ?>
         x
         <!-- Cetak variable $orderCount -->
         <?php echo $jmlPesanan; ?>
@@ -41,7 +41,7 @@ if (isset($_GET['nama'])) {
     <?php endforeach ?>
     <h3>Harga total: Rp. <?php echo $totalBayar; ?></h3>
     <a href="menu1.php"><button type="button" class="tombol-kembali">Kembali</button></a>
-    <a href="https://wa.me/6285748963342"><button type="button" class="tombol-Wa">Oreder Leat WA</button></a>
+    <a href="https://wa.me/6285748963342"><button type="button" class="tombol-Wa">Oreder Lewat WA</button></a>
 
   </div>
 </body>
