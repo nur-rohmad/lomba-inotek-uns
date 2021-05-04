@@ -19,7 +19,7 @@ if (isset($_POST['nama'])) {
 
 <body>
   <div class="order-wrapper">
-    <h2>Keranjang</h2>
+    <h2>Nota :</h2>
     <p class="nama"><?php echo "Nama : " . $namaku ?></p><br>
     <p class="alamat"> <?php echo "Alamat  : " . $alamat ?></p><br>
     <?php $totalBayar = 0; ?>
