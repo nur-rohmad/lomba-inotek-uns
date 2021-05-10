@@ -16,6 +16,39 @@ form, input, div {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.icon-navbar {
+  display: none;
+  float: right;
+}
+
+.menuHp {
+  display: none;
+  width: 100%;
+  height: 500px;
+  background-color: white;
+}
+
+.menuHp ul {
+  padding-top: 25px;
+}
+
+.menuHp li {
+  margin: 10px 10px;
+  padding: 30px 0px;
+}
+
+.menuHp a {
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.menuHp li:hover {
+  background-color: cornflowerblue;
+}
+
  /* awal css index.php */
 .header-left {
   float: left;
@@ -96,12 +129,15 @@ h2, h3, h4, h5, h6 {
 
 .textLogo {
   margin-top: 0px;
-  font-size: 60px;
-  line-height: 100px;
+  font-size: 70px;
+  line-height: 120px;
   margin-left: 2%;
 }
 .textLogo h1{
+  font-size: 70px;
   margin-bottom: 30px;
+  color: #dae1e7;
+  line-height: 100px;
 }
 
 .nasiPecel {

@@ -10,6 +10,10 @@
 
   }
 
+  .icon-navbar{
+    display: block;
+  }
+
   .logo {
     width: 100px;
     height: 150px;
@@ -27,11 +31,11 @@
   
   .textLogo {
     margin-top: 0px;
-    font-size: 20px;
-    line-height: 30px;
   }
   .textLogo h1{
     margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 30px;
   }
   
   .nasiPecel {
